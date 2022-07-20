@@ -1,0 +1,314 @@
+.img{
+    width: 100px;
+    height: 100px;;
+}
+#spanspan{
+    color: red;
+    font-size: 35px;
+}
+#color {
+     color: red !important;
+}
+a{
+    color:white !important;
+    font-size: 15px;
+}
+nav ul li a{
+    padding: 10px;
+    border-bottom: 2px solid transparent;
+}
+nav ul li a.active,nav ul li a:hover{
+    border-color: red;
+    color: red;
+}
+#navbarSupportedContent{
+    margin-right: 50px;
+}
+a:hover{
+    color:red !important;
+}
+body{
+    background-color: black;
+}
+#header-banner{
+    background: url('grey.jpg') no-repeat 0 0;
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url('grey.jpg');
+    height:150px;
+    background-size: cover;
+}
+#banner-h4{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    margin-left:30px ;
+}
+#bc-a{
+    text-decoration: none;
+    font-size: 18px;
+}
+#bc-p1{
+    color:white;
+    font-weight:bold;
+    font-size: 18px;
+}
+#body-img{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('About_Us_4.jpg') no repeart 0 0;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    animation:slider 15s infinite linear;
+}
+@keyframes slider{
+    0%{ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('About_Us_4.jpg');
+        width:100%; height:100vh; background-size: cover;}
+     35%{background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('AboutUs3.jpg');
+         width:100%;height:100vh; background-size: cover; }
+     75%{ background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url('AboutUs1.jpg');
+         width:100%;height:100vh; background-size: cover;}
+}
+#main-body-1-img{
+    background:url('Packs.jpg') no-repeat 0 0;
+    background:linear-gradient(rgba(0,0,0,0.6),rbga(0,0,0,0.3)),url('Packs.jpg');
+    width: 400px;
+    height:100vh;
+    background-size:cover;
+}
+#main-body-1-h3{
+    color: red;
+    margin-top: 40px;
+    margin-left: 80px;
+    font-weight: bold;
+    font-size: 45px;
+}
+#main-body-1-p{
+    margin-bottom: 150px;
+    margin-left: 80px;
+    margin-top: 20px;
+    color: white;
+}
+#main-body-1-p1{
+    color:white;
+    margin-left: 30px;
+}
+#main-body-1-p2{
+    color:white;
+    margin-left: 600px;
+    position: relative;
+    top:-42px;
+}
+#main-body-1-hr{
+    position: relative;
+    top:-40px;
+    margin-left:32px;
+    background-color:rgb(255, 0, 0);
+    color:red;
+    width:500px;
+    height:10px;
+}
+#main-body-1-hr2{
+    position: relative;
+    top:-40px;
+    margin-left:32px;
+    background-color:rgb(255, 0, 0);
+    color:red;
+    width:468px;
+    height:10px;
+}
+#main-body-1-hr1{
+    position: relative;
+    top:-66px;
+    margin-left:532px;
+    background-color:rgb(255, 255, 255);
+    color:red;
+    width:100px;
+    height:10px;
+}
+#main-body-1-hr21{
+    position: relative;
+    top:-66px;
+    margin-left:500px;
+    background-color:rgb(255, 255, 255);
+    color:red;
+    width:130px;
+    height:10px;
+}
+#main-body-1-hr3{
+    position: relative;
+    top:-40px;
+    margin-left:32px;
+    background-color:rgb(255, 0, 0);
+    color:red;
+    width:528px;
+    height:10px;
+}
+#main-body-1-hr31{
+    position: relative;
+    top:-66px;
+    margin-left:560px;
+    background-color:rgb(255, 255, 255);
+    color:red;
+    width:70px;
+    height:10px;
+}
+#main-body-2{
+    background-color: white;
+}
+#main-body-2-img{
+    width: 300px;
+    height:420px;
+    position: relative;
+    right:20px;
+}
+#main-body-2-h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+#main-body-2-p,#main-body-2-input,#main-body-2-input-2{
+    margin-left: 48px;
+    margin-top: 10px;
+}
+#main-body-2-input,#main-body-2-input-2{
+    background-color: rgba(255, 195, 205, 0.87);
+    padding: 8px;
+    border-style: none;
+}
+#main-body-2-input-2{
+    padding-right: 282px;
+}
+.num-format{
+    color: rgba(0, 0, 0, 0.459);
+    margin-top: 10px;
+    margin-left: 60px;
+    font-size: 11px;
+}
+#submit-btn{
+    color: rgb(0, 204, 255);
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid rgb(0, 204, 255);
+    border-radius: 10px;
+    padding: 12px 28px;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+#upload-btn{
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 12px 28px;
+    position: relative;
+    right:-70px;
+}
+#trainers-h5{
+    color: red;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bolder;
+    margin-top: 60px;
+}
+#trainers-img{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(bgimg2.jpg);
+    background-size:100% 100%;
+    width: 320px;
+    height:350px;
+    border-radius: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+#trainers-img-2{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(Trainer-6.jpg);
+    background-size:100% 100%;
+    width: 320px;
+    height:350px;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#trainers-img-3{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('AboutUS2.jpg') no-repeat 0 0;
+    background-size:100% 100%;
+    width: 320px;
+    height:350px;
+    border-radius: 25px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+#trainers-name{
+    color:white;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+}
+#fimg{
+    background:url('fimg.jpg') no-repeat 0 0;
+    background:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('fimg.jpg');
+    height:600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#fimg img{
+    margin-top: 80px;
+}
+#fimg img,p,a{
+    margin-left: 25px;
+}
+#ficon{
+    margin-top: 15px;
+    color: red;
+    font-size: 30px;
+}
+#fimg p{
+    margin-top: 20px;
+    color:white;
+}
+#fimg h4{
+    font-weight: bold;
+    color:white;
+    margin-top: 80px;
+    margin-left: 60px;
+}
+#fimg {
+    margin-right: 40px;
+    font-family: prompt;
+    font-weight: lighter;
+    color: rgba(190, 190, 190, 1);
+}
+#fimg i a{
+    color: rgba(190, 190, 190, 1) !important;
+    text-decoration: none;
+}
+#ficon2{
+    font-size: 25px;
+    color: red;
+    margin-right: 20px;
+    margin-top: 25px;
+    margin-left: 60px;
+}
+#links{
+    margin-top: 15px;
+    margin-left: 60px;
+}
+input[type="file"]{
+    display: none;
+}
+label{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-left: 60px;
+    font-weight: bold;
+}
+#submit-btn:active {
+    transform: translateY(4px);
+}
